@@ -17,6 +17,13 @@
 @import url(https://fonts.googleapis.com/css?family=Miriam+Libre:300,700,300italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Libre+Franklin:300,700,300italic,700italic);
 
+a {
+  color: #9090F1;
+}
+a:hover {
+  color: lighten($color: #9090F1, $amount: 10%);
+}
+
 .heading1 {
   font-family: Miriam Libre;
   font-style: normal;
@@ -63,13 +70,14 @@
   text-align: left;
   .heading1 {
     line-height: 0;
+    font-size: 42px;
   }
   .subtitle {
     line-height: 1.3;
-    font-size: 22px;
+    font-size: 28px;
   }
   .content {
-    font-size: 16px;
+    font-size: 22px;
   }
 }
 
@@ -84,7 +92,7 @@
     font-size: 22px;
   }
   .content {
-    font-size: 16px;
+    font-size: 24px;
   }
 }
 .moment {
@@ -131,6 +139,7 @@
   align-items: flex-start;
   .content {
     padding: 5px;
+    font-size: 24px;
   }
 }
 
