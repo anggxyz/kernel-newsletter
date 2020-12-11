@@ -112,25 +112,29 @@ body {
   -webkit-animation: appear 0.5s;
   animation: appear 0.5s;
   background-color: pink;
-  background-image: url("../../../images/writers/vivek.png"); }
+  /* background-image: url("../../../images/writers/vivek.png");  */
+}
 
 .img2 {
   -webkit-animation: appear 1.5s;
   animation: appear 1.5s;
   background-color: orange;
-  background-image: url("../../../images/writers/sachin.jpeg"); }
+  /* background-image: url("../../../images/writers/sachin.jpeg");  */
+}
 
 .img3 {
   -webkit-animation: appear 2s;
   animation: appear 2s;
   background-color: gold;
-  background-image: url("../../../images/writers/andy.jpg"); }
+  /* background-image: url("../../../images/writers/andy.jpg");  */
+}
 
 .img4 {
   -webkit-animation: appear 2.5s;
   animation: appear 2.5s;
   background-color: lightgreen;
-  background-image: url("../../../images/writers/angela.jpeg"); }
+  /* background-image: url("../../../images/writers/angela.jpeg");  */
+}
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes appear {
