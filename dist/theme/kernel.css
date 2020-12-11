@@ -15,16 +15,14 @@ a:hover {
   font-family: Miriam Libre;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
-  line-height: 63px;
+  font-size: 3vw;
   color: #9090F1; }
 
 .subtitle {
   font-family: Miriam Libre;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
-  line-height: 42px;
+  font-size: 2vw;
   color: #25E899; }
 
 .kernel-slide-heading {
@@ -40,7 +38,7 @@ a:hover {
   font-family: Libre Franklin;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 1.5vw;
   line-height: 150%;
   /* or 24px */
   color: #fff; }
@@ -51,23 +49,18 @@ a:hover {
   text-align: left; }
   .kernel-slide-1 .heading1 {
     line-height: 0;
-    font-size: 42px; }
+    font-size: 3vw; }
   .kernel-slide-1 .subtitle {
     line-height: 1.3;
-    font-size: 28px; }
+    font-size: 1.5vw; }
   .kernel-slide-1 .content {
-    font-size: 22px; }
+    font-size: 1.5vw; }
 
 .kernel-slide-moments {
   text-align: left;
   margin: 10%; }
-  .kernel-slide-moments .heading1 {
-    line-height: 0.8; }
-  .kernel-slide-moments .subtitle {
-    line-height: -0.2;
-    font-size: 22px; }
   .kernel-slide-moments .content {
-    font-size: 24px; }
+    font-size: 1.5vw; }
 
 .moment {
   display: flex;
@@ -93,7 +86,7 @@ a:hover {
     font-family: Miriam Libre;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 1vw;
     color: #25E899; }
   .ask .ask-author-email {
     font-style: italic;
@@ -101,7 +94,7 @@ a:hover {
     color: #676868; }
   .ask .content {
     padding: 5px;
-    font-size: 24px; }
+    font-size: 1.5vw; }
 
 body {
   background-color: #444; }
@@ -111,8 +104,8 @@ body {
   display: flex; }
 
 .image {
-  width: 30px;
-  height: 30px;
+  width: 3vw;
+  height: 3vw;
   border-radius: 50%;
   background-size: contain; }
 
