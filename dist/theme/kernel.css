@@ -15,7 +15,7 @@ a:hover {
   font-family: Miriam Libre;
   font-style: normal;
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 4vw;
   color: #9090F1; }
 
 .subtitle {
@@ -32,7 +32,7 @@ a:hover {
 
 .kernel-slide-contents {
   text-align: left;
-  margin: 10%; }
+  margin: 5%; }
 
 .content {
   font-family: Libre Franklin;
@@ -44,7 +44,7 @@ a:hover {
   color: #fff; }
 
 .kernel-slide-1 {
-  margin-top: 25%;
+  margin-top: 20%;
   margin-left: 50%;
   text-align: left; }
   .kernel-slide-1 .heading1 {
@@ -109,9 +109,13 @@ body {
   border-radius: 50%;
   background-size: contain; }
 
+.image:hover {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background-size: contain; }
+
 .img1 {
-  -webkit-animation: appear 0.5s;
-  animation: appear 0.5s;
   background-color: pink;
   background-image: url("../../../images/writers/vivek.png"); }
 
@@ -165,4 +169,31 @@ body {
   z-index: 5; }
 
 .img1, .img2, .img3, .img4, .img5 {
-  transition: all 1s; }
+  transition: all 0.5s; }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px; }
+
+.photothumb {
+  width: 30vw;
+  padding: 2px;
+  transition: all .55s;
+  border-radius: 2%; }
+
+.caption {
+  color: ivory;
+  font-family: 'Libre Franklin';
+  font-size: small;
+  display: none; }
+
+.photothumb:hover {
+  width: 31vw;
+  border-radius: 2%; }
+
+.photothumb:hover + .caption {
+  display: block;
+  -webkit-animation: appear 0.5s;
+  animation: appear 0.5s; }
