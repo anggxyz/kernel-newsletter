@@ -17,6 +17,19 @@
 @import url(https://fonts.googleapis.com/css?family=Miriam+Libre:300,700,300italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Libre+Franklin:300,700,300italic,700italic);
 
+hr {
+  // border: 0;
+  // height: 0.25em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #25E899;
+  // background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+li {
+  padding: 5px;
+}
+
 a {
   color: #9090F1;
 }
@@ -51,7 +64,9 @@ a:hover {
 
 .kernel-slide-contents {
   text-align: left;
-  margin: 5%;
+  margin-top: 5em;
+  margin-left: 8em;
+  margin-right: 8em;
 }
 
 .content {
@@ -279,7 +294,6 @@ body {
   padding: 2px;
   transition: all .55s;
   border-radius: 2%;
-
 }
 
 .caption {

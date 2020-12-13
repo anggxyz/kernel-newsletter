@@ -5,6 +5,14 @@
  */
 @import url(https://fonts.googleapis.com/css?family=Miriam+Libre:300,700,300italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Libre+Franklin:300,700,300italic,700italic);
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #25E899; }
+
+li {
+  padding: 5px; }
+
 a {
   color: #9090F1; }
 
@@ -32,7 +40,9 @@ a:hover {
 
 .kernel-slide-contents {
   text-align: left;
-  margin: 5%; }
+  margin-top: 5em;
+  margin-left: 8em;
+  margin-right: 8em; }
 
 .content {
   font-family: Libre Franklin;
