@@ -1,8 +1,3 @@
-/**
- * White theme for reveal.js. This is the opposite of the 'black' theme.
- *
- * By Hakim El Hattab, http://hakim.se
- */
 @import url(https://fonts.googleapis.com/css?family=Miriam+Libre:300,700,300italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Libre+Franklin:300,700,300italic,700italic);
 hr {
@@ -163,21 +158,6 @@ body {
   100% {
     opacity: 1; } }
 
-.img1 {
-  z-index: 1; }
-
-.img2 {
-  z-index: 2; }
-
-.img3 {
-  z-index: 3; }
-
-.img4 {
-  z-index: 4; }
-
-.img5 {
-  z-index: 5; }
-
 .img1, .img2, .img3, .img4, .img5 {
   transition: all 0.5s; }
 
@@ -207,3 +187,91 @@ body {
   display: block;
   -webkit-animation: appear 0.5s;
   animation: appear 0.5s; }
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .kernel-slide-1 .heading1 {
+    font-size: 2vw; }
+  .kernel-slide-1 .subtitle {
+    font-size: 1vw; }
+  .kernel-slide-1 .content {
+    font-size: 1vw; }
+  .heading1 {
+    font-size: 2vw; }
+  .heading1 .subtitle .content {
+    font-size: 1vw; }
+  .content {
+    font-size: 1vw; }
+  .kernel-slide-moments {
+    text-align: left;
+    margin: 10%; }
+    .kernel-slide-moments .heading1 {
+      font-size: 2vw; }
+    .kernel-slide-moments .subtitle {
+      font-size: 1vw; }
+    .kernel-slide-moments .content {
+      font-size: 1vw; }
+    .kernel-slide-moments .fellow-foto {
+      width: 25%; } }
+
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .kernel-slide-1 .heading1 {
+    font-size: 2vw; }
+  .kernel-slide-1 .subtitle {
+    font-size: 1vw; }
+  .kernel-slide-1 .content {
+    font-size: 1vw; }
+  .heading1 {
+    font-size: 2vw; }
+  .heading1 .subtitle .content {
+    font-size: 1vw; }
+  .content {
+    font-size: 1vw; }
+  .kernel-slide-moments {
+    text-align: left;
+    margin: 10%; }
+    .kernel-slide-moments .heading1 {
+      font-size: 2vw; }
+    .kernel-slide-moments .subtitle {
+      font-size: 1vw; }
+    .kernel-slide-moments .content {
+      font-size: 1vw; }
+    .kernel-slide-moments .fellow-foto {
+      width: 25%; } }
+
+/* Portrait */
+/* Landscape */
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .kernel-slide-1 .heading1 {
+    font-size: 2vw; }
+  .kernel-slide-1 .subtitle {
+    font-size: 1vw; }
+  .kernel-slide-1 .content {
+    font-size: 1vw; }
+  .heading1 {
+    font-size: 2vw; }
+  .heading1 .subtitle .content {
+    font-size: 1vw; }
+  .content {
+    font-size: 1vw; }
+  .kernel-slide-moments {
+    text-align: left;
+    margin: 10%; }
+    .kernel-slide-moments .heading1 {
+      font-size: 2vw; }
+    .kernel-slide-moments .subtitle {
+      font-size: 1vw; }
+    .kernel-slide-moments .content {
+      font-size: 1vw; }
+    .kernel-slide-moments .fellow-foto {
+      width: 25%; } }
+
+/* Portrait */
+/* Landscape */
